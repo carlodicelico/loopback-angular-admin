@@ -18,8 +18,8 @@
     "url": "https://github.com/beeman/loopback-angular-admin/issues"
   },
   "scripts": {
-    "start": "node server/server.js",
-    "dev": "nodemon server/server.js --watch server --watch common --ext js,json ",
+    "start": "pm2 start server/server.js -i 0 --name 'API'",
+    "dev": "pm2 start --watch server/server.js -i 0 --name 'API'",
     "postinstall": "bower install && grunt build"
   },
   "main": "server/server.js",

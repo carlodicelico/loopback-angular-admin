@@ -3,6 +3,7 @@
 # To run locally
 
 ```
+npm i -g pm2
 git checkout localrun; npm install; npm start
 grunt serve (new pane)
 ```

@@ -1,5 +1,18 @@
 # loopback-angular-admin
 
+# To run locally
+
+```
+git checkout localrun; npm start
+grunt serve (new pane)
+```
+
+API at [http://localhost:3000/explorer](http://localhost:3000/explorer)
+
+SPA at [http://localhost:9000](http://localhost:9000)
+
+`pm2 stop all` to shut down the cluster. `pm2 monit` for cluster monitoring. `pm2 log` for logs.
+
 **This software is not ready for production! It is still being developed and it will change in the future.**
 
 The goal is to have a starter project which can be used to quickly build an API with a frontend that are easily extended.

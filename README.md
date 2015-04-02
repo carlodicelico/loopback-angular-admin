@@ -4,7 +4,7 @@
 
 ```
 npm i -g pm2
-git checkout localrun; cd localrun; npm install; npm start
+git checkout localrun; npm install; npm start
 grunt serve (new pane)
 ```
 
